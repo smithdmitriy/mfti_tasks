@@ -16,7 +16,7 @@ plt.xlabel(r'$x$', fontsize=14)
 plt.ylabel(r'$f(x)$', fontsize=14)
 plt.title(r'$f\left(x \right)=\log _{1+\tan \left(\frac{1}{1+\sin ^{2}\left(x '
           r'\right)} \right)}\left(x^{2}+1\right)\exp \left(-\frac{\left|x '
-          r'\right|}{10} \right)$',fontsize=20)
+          r'\right|}{10} \right)$', fontsize=20)
 plt.minorticks_on()
 plt.grid(which='major',
          color='k',
