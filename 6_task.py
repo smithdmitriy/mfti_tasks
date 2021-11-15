@@ -29,10 +29,8 @@ plt.ylabel(r'$f(x)$', fontsize=14)
 plt.title(r'Weierstrass function', fontsize=20)
 plt.minorticks_on()
 plt.grid(which='major',
-         color='k',
          linewidth=0.5)
 plt.grid(which='minor',
-         color='g',
-         linewidth=0.3,
+         linewidth=0.5,
          linestyle=':')
 plt.show()
