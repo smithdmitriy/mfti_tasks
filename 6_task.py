@@ -2,7 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def weierstrass_f(a, b, x):
+
+
+def weierstrass_f(a, b, x: np.array) -> np.array:
     fx = np.array([])
     i = 0
     while i < len(x):
