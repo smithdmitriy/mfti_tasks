@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 def weierstrass_f(a, b, x):
     fx = np.array([])
     i = 0
-    while i <= len(x) - 1:
+    while i < len(x):
         j = 0
         sigm = 0
         while j <= 10:
@@ -13,7 +13,7 @@ def weierstrass_f(a, b, x):
             j += 1
         fx = np.append(fx, [sigm])
         i += 1
-    return (fx)
+    return fx
 
 
 start = -2
