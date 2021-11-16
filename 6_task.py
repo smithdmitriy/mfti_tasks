@@ -19,7 +19,7 @@ def weierstrass_f(a, b, x: np.array) -> np.array:
 start = -2
 stop = 2
 step = 0.0001
-a = 3
+a = 5
 b = 0.5
 x = np.arange(start, stop, step)
 plt.figure(figsize=(14, 7))
